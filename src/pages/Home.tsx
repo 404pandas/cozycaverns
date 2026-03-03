@@ -1,16 +1,12 @@
-import { Typography, Box } from '@mui/material'
+import { Typography, Box } from "@mui/material";
+import HeroSection from "../components/HeroSection";
 
 const Home = () => {
   return (
     <Box>
-      <Typography variant="h2" gutterBottom>
-        Home
-      </Typography>
-      <Typography variant="body1">
-        Welcome to Cozy Caverns — a light, elegant, and playful space inspired by the warmth of hidden underground sanctuaries.
-      </Typography>
+      <HeroSection />
     </Box>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
